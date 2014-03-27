@@ -389,12 +389,14 @@
 		462A5A9318E15AB200F6F32C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYTableViewRefresh/FYTableViewRefresh-Prefix.pch";
 				INFOPLIST_FILE = "FYTableViewRefresh/FYTableViewRefresh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,12 +404,14 @@
 		462A5A9418E15AB200F6F32C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYTableViewRefresh/FYTableViewRefresh-Prefix.pch";
 				INFOPLIST_FILE = "FYTableViewRefresh/FYTableViewRefresh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +475,7 @@
 				462A5A9418E15AB200F6F32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462A5A9518E15AB200F6F32C /* Build configuration list for PBXNativeTarget "FYTableViewRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				462A5A9718E15AB200F6F32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
